@@ -31,7 +31,7 @@ uv add agno python-dotenv
 
 ### Run your code
 ```bash
-uv run python main.py
+uv run python hello.py
 ```
 
 ### Add packages
