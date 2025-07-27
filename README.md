@@ -24,7 +24,7 @@ cp .env.example .env
 
 Add python-dotenv to load environment variables:
 ```bash
-uv add python-dotenv
+uv add agno python-dotenv
 ```
 
 ## Usage
