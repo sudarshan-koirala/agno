@@ -1,19 +1,17 @@
 # agno
-This repo holds the content from my agno youtube playlist
-
-Make sure you have [uv](https://docs.astral.sh/uv/) for package management. installed, 
-
+This repo holds the content from my [agno](https://www.agno.com/) youtube playlist
+---
 ## Setup
 
-### 1. Install uv
+### 1. Install [uv](https://docs.astral.sh/uv/)
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 ### 2. Clone and Initialize
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/sudarshan-koirala/agno.git
+cd agno
 uv sync
 ```
 
