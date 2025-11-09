@@ -18,33 +18,28 @@ uv sync
 ### 3. Environment Variables
 Create a `.env` file:
 ```bash
-cp .env.example .env
+touch .env
 # Edit .env with your values
-```
-
-Add python-dotenv to load environment variables:
-```bash
-uv add agno python-dotenv
 ```
 
 ## Usage
 
 ### Run your code
 ```bash
-uv run python hello.py
+#Example
+uv run python agent.py
 ```
 
-### Add packages
+### Add packages if needed
 ```bash
 uv add package-name
 ```
 
-## Project Files
-```
-.
-├── .env              # Your environment variables
-├── .env.example      # Example environment file  
-├── pyproject.toml    # Project config
-├── main.py           # Your main script
-└── .venv/            # Virtual environment
-```
+#### You might need to verify your organization to access protected models from OpenAI
+![alt text](image.png)
+
+
+## References
+- https://docs.agno.com/introduction
+- https://docs.agno.com/introduction/quickstart
+- https://docs.agno.com/agent-os/introduction
