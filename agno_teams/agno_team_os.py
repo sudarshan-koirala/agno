@@ -13,7 +13,7 @@ import os
 load_dotenv()  # Load variables from .env file
 
 # Now use the key
-groq_api_key = os.getenv("GROQ_API_KEY")
+#groq_api_key = os.getenv("GROQ_API_KEY")
 
 # Create specialized agents
 news_agent = Agent(

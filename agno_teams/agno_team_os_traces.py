@@ -52,7 +52,7 @@ team = Team(
 agent_os = AgentOS(teams=[team], tracing=True)
 app = agent_os.get_app()
 
-# uv run fastapi dev agno_team_os.py
+# uv run fastapi dev agno_team_os_traces.py
 
 #current time and weather of helsinki
 # What's the latest news and weather in Tokyo?
