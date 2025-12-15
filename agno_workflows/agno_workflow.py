@@ -10,22 +10,22 @@ from dotenv import load_dotenv
 import os
 load_dotenv()  # Load variables from .env file
 # Now use the key
-groq_api_key = os.getenv("GROQ_API_KEY")
+#groq_api_key = os.getenv("GROQ_API_KEY")
 
 
 # Define agents with specific roles
 researcher = Agent(
     name="Researcher",
-    model=Groq(id="openai/gpt-oss-20b"),
-    #model=LlamaCpp(id="ggml-org/gpt-oss-20b-GGUF"
+    #model=Groq(id="openai/gpt-oss-20b"),
+    model=LlamaCpp(id="ggml-org/gpt-oss-20b-GGUF"),
     instructions="Find relevant information about the topic",
     tools=[TavilyTools()]
 )
 
 writer = Agent(
     name="Writer",
-    model=Groq(id="openai/gpt-oss-20b"),
-    #model=LlamaCpp(id="ggml-org/gpt-oss-20b-GGUF"
+    #model=Groq(id="openai/gpt-oss-20b"),
+    model=LlamaCpp(id="ggml-org/gpt-oss-20b-GGUF"),
     instructions="Write a clear, engaging article based on the research"
 )
 

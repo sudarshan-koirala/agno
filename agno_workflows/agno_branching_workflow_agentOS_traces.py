@@ -121,6 +121,6 @@ workflow = Workflow(
 agent_os = AgentOS(workflows=[workflow], tracing=True)
 app = agent_os.get_app()
 
-# uv run fastapi dev agno_branching_workflow_agentOS.py
+# uv run fastapi dev agno_branching_workflow_agentOS_traces.py
 
 # Latest developments in artificial intelligence and machine learning
